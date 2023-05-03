@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#messages{
+    
+    margin: 10px 0;
+    height: 60vh;
+    border: 1px solid;
+    width: 90vw;
+    background-color: rgb(71, 71, 71);
+    color: rgb(236, 236, 236);
+    overflow: auto;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+
+input{
+    width: 80vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+
+input:focus{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+button{
+    width: 20vw;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+
+}
